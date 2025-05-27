@@ -1,0 +1,99 @@
+* {
+  padding: 0; 
+  margin: 0;
+}
+
+/* ------- HEADER ------- */
+
+header {
+    height: 5vh;
+    background-color:rgb(235, 247, 247)
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+/* ------- MAIN ------- */
+
+.hero {
+    display: flex;
+    background-color: aquamarine;
+    height: 95vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    padding: 2rem;
+    font-size: 6rem;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+}
+
+.section1 {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 0 20rem;
+}
+
+.section1 h3 {
+    font-size: 2rem
+}
+
+.section1 button {
+    padding: 10px 15px;
+}
+
+.servicios {
+    height: 95vh;
+}
+.productos {
+    height: 95vh;
+}
+.sobre-nosotros {
+    height: 95vh;
+}
+.contacto {
+    height: 95vh;
+}
+
+/* ------- FOOTER ------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    background-color:rgb(246, 253, 253)
+}
+
+footer div svg, footer p {
+    padding: 10px;
+}
+
