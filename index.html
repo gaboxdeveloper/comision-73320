@@ -15,29 +15,23 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary sticky-top position-relative"
-        style="height: 70px"
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        style="
+          height: 4rem;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1030;
+        "
       >
         <div class="container-fluid position-relative">
           <a
             class="navbar-brand position-absolute start-0 top-50 translate-middle-y ps-3"
-            href="./index.html"
+            href="../index.html"
           >
             Gabriel Rossy Studio
           </a>
-          <!-- Botón hamburguesa -->
-          <button
-            class="navbar-toggler ms-auto"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Menú: centrado horizontal y vertical respecto al navbar -->
           <div
             class="collapse navbar-collapse justify-content-center"
             id="navbarSupportedContent"
@@ -54,28 +48,20 @@
               <li class="nav-item">
                 <a class="nav-link" href="./pages/contacto.html">Contacto</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="./pages/productos.html"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Productos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
               </li>
             </ul>
           </div>
         </div>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -85,28 +71,26 @@
           <h2>Soluciones en Hardware y Software a medida</h2>
         </div>
       </section>
-      <section class="section1">
+      <section class="indexSection">
         <h3>¿A qué nos dedicamos?</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-          quis, repudiandae officiis voluptas quae alias deleniti cupiditate
-          adipisci nam ut, eveniet dolorum, at numquam accusantium. At iure
-          dolor sit nobis. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Sint optio laboriosam neque illum dolores aperiam, pariatur quia
-          excepturi quae necessitatibus ad ex voluptates possimus voluptatibus,
-          dignissimos natus! Veritatis, doloremque odio. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Rem fugit, aut unde maiores
-          incidunt, mollitia recusandae adipisci sint molestiae nostrum,
-          eligendi beatae quaerat iste inventore excepturi obcaecati ad facere
-          nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cupiditate sed repudiandae architecto molestias iste deserunt ea iure,
-          saepe ab! Placeat omnis assumenda aperiam veritatis magnam architecto
-          dicta. Aut, fuga placeat? Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Repudiandae eum repellendus aspernatur nostrum, quos
-          quibusdam doloribus, quo, ab ducimus praesentium quam libero ea
-          corrupti. Inventore repudiandae numquam odit expedita autem.
+          Gabriel Rossy Studio es una empresa especializada en diseñar y
+          desarrollar soluciones tecnológicas integrales, pensadas a medida para
+          satisfacer las necesidades de cada cliente. Nos dedicamos a ofrecer un
+          asesoramiento personalizado para el armado de PCs, garantizando
+          componentes de calidad y el máximo rendimiento. Además, brindamos un
+          servicio técnico post-venta confiable y rápido, asegurando que tus
+          equipos funcionen siempre al máximo. <br>
+          Pero nuestro compromiso no
+          termina allí: también diseñamos y desarrollamos soluciones de software
+          web adaptadas a los requerimientos específicos de tu negocio,
+          ayudándote a optimizar procesos y potenciar tu presencia digital. <br> 
+          En <span>Gabriel Rossy Studio</span> combinamos pasión, innovación y atención
+          cercana para acompañarte en cada etapa, desde la elección del hardware
+          hasta la implementación de software, asegurando resultados de
+          excelencia y una completa satisfacción.
         </p>
-        <button>Contáctanos</button>
+        <a type="button" class="btn" href="./pages/contacto.html">Contáctanos</a>
         <h3>¿Qué dicen los clientes?</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim
